@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAB 3 - Formulir dan Multimedia</title>
+    <!-- CSS - STRUKTUR DASAR FORM -->
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 700px; margin: 30px auto; padding: 0 20px; }
+        h1 { color: #1A5276; }
+        h2 { color: #2E86C1; border-bottom: 2px solid #AED6F1; padding-bottom: 5px; }
+        label { display: block; margin-top: 12px; font-weight: bold; }
+        input[type=text], input[type=email], input[type=password],
+        input[type=number], input[type=date], input[type=tel],
+        textarea, select {
+            width: 100%; padding: 8px; margin-top: 4px;
+            border: 1px solid #BDC3C7; border-radius: 4px; box-sizing: border-box;
+        }
+        input[type=submit], input[type=reset] {
+            margin-top: 16px; padding: 10px 24px;
+            background-color: #2E86C1; color: white;
+            border: none; border-radius: 4px; cursor: pointer;
+        }
+        input[type=reset] { background-color: #BDC3C7; }
+        fieldset { border: 2px solid #AED6F1; border-radius: 6px; margin-top: 20px; padding: 16px; }
+        legend { font-weight: bold; color: #1A5276; padding: 0 8px; }
+    </style>
+</head>
+<body>
+    <!-- BAGIAN 4 : MULTIMEDIA -->
+    <h2>Multimedia</h2>
+
+    <!-- Audio: ganti nama file dengan file audio kamu, atau hapus bagian ini -->
+    <h3>Audio</h3>
+    <audio controls style="width: 100%;">
+        <source src="OneRepublic - I Ain’t Worried (From “Top Gun_ Maverick”) [Official Music Video]_mNEUkkoUoIA.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Video: ganti nama file dengan file video kamu -->
+    <h3>Video</h3>
+    <video controls width="100%" style="max-width: 640px;">
+        <source src="Iklan Es Krim Hatsune Miku & Suisei.mp4" type="video/mp4">
+    </video>
+
+    <!-- Video Youtube via iFrame -->
+    <h3>Video iFrame (Youtube)</h3>
+
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/xGXzsku9x_k?si=OW1e6b16v8i-eybz" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+    </iframe>
+    
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/mbeT8mpmtHA"
+            title="Tutorial HTML Bahasa Indonesia"
+            frameborder="0"
+            allowfullscreen>
+    </iframe>
+
+    <!-- Google Maps via iFrame -->
+    <h3>Lokasi SMK TJP Tuban</h3>
+
+    <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.924275890611!2d112.04780227379045!3d-6.8996598675188885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77a2aa2e02e583%3A0xb530f7140a4b9327!2sSMK%20Taruna%20Jaya%20Prawira!5e0!3m2!1sid!2sid!4v1787814812191!5m2!1sid!2sid" 
+            width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy">
+    </iframe>
+    <p style="text-align: left;"><a href="index.html"><< Kembali ke Halaman Sebelumnya</a></p>
+
+</body>
+</html>
