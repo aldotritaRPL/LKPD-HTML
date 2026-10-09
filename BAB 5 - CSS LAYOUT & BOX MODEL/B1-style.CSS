@@ -1,0 +1,46 @@
+/* Properti Box Model */
+.kotak {
+    /* Konten */
+    width: 300px;
+    height: 150px;
+
+/* Padding: shorthand (atas kanan bawah kiri) */
+    padding: 20px 30px 20px 30px;
+/* atau: padding: 20px 30px; (atas-bawah) | (kiri-kanan) */
+/* atau: padding: 20px; (semua sisi sama) */
+
+/* Border */
+    border: 3px solid #1A5276;
+/* Shorthand: ketebalan | jenis | warna */
+    border-radius: 8px      /* Sudut membulat */
+}
+/* Margin */
+.kotak {
+    margin: 20px auto;          /* atas-bawah: 20px, kiri-kanan: auto (tengah) */
+}
+
+/* box-sizing: border-box — SANGAT DIREKOMENDASIKAN! */
+/* Membuat width & height sudah termasuk padding & border */
+*{
+    box-sizing: border-box;
+}
+
+/* Border Lengkap */
+.kotak {
+    border-width: 2px;             /* Ketebalan */
+    border-style: solid;           /* Jenis:solid, dashed, dotted, double, none */
+    border-color: #1A5276;       /* Warna */
+
+/* Shorthand */
+    border: 2px solid #1A5276;
+
+
+/* Per Sisi */
+    border-top: 4px solid #D4AC0D;         /* Hanya sisi atas */
+    border-bottom: 1px dashed #BDC3C7;     /* Hanya sisi bawah */
+
+/* Sudut membulat */
+    border-radius: 10px;                    /* Semua sudut */
+    border-radius: 10px 0 10px 0;           /* Atas kiri, atas-kanan, bawah-kanan, bawah-kiri */
+    border-radius: 50%;                     /* Lingkaran penuh (untuk elemen persegi) */
+}
